@@ -16,7 +16,7 @@ namespace _2GisAPI
 
 
             string time = $"&offset_date={DateTime.Now.Year}-{DateTime.Now.Month.ToString("0#")}-{DateTime.Now.Day}T00:00:00.000000%2B07:00";
-            string urlA = "https://public-api.reviews.2gis.com/2.0/branches/70000001029417608/reviews?limit=10";
+            string urlA = "https://public-api.reviews.2gis.com/2.0/branches/70000001034701277/reviews?limit=50";
             string urlB = "&is_advertiser=false&fields=meta.providers,meta.branch_rating,meta.branch_reviews_count,meta.total_count,reviews.hiding_reason,reviews.is_verified&without_my_first_review=false&rated=true&sort_by=date_edited&key=37c04fe6-a560-4549-b459-02309cf643ad&locale=ru_RU";
 
 
